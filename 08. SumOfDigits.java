@@ -8,11 +8,12 @@ import java.util.Scanner;
         System.out.println("Sum Of Digits Is: "+sum);
     }
     public static int sumofdigits(int num){
-        int sum = 0;
+        int sum = 0 ;
         while(num > 0){
             sum = sum + num % 10;
-            num /= 10;
+            num =num / 10 ;
         }
         return  sum;
     }
 }
+
