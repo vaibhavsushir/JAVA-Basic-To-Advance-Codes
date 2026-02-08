@@ -4,7 +4,7 @@ import java.util.Scanner;
         Scanner input = new Scanner(System.in);
         int r = input.nextInt();
         int c = input.nextInt();
-
+        System.out.println("Numeric Number Rectangle");
         for(int i = 1; i <= r; i++){
             for(int j = 1; j <= c ; j++) {
                 if ((i + j) % 2 == 0) {
@@ -18,3 +18,4 @@ import java.util.Scanner;
 
     }
 }
+
