@@ -2,6 +2,7 @@ import java.util.Scanner;
  class CountNoDigits {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+      System.out.print("Count Number Of Digits");
         System.out.print("Enter Your Number: ");
         int num = input.nextInt();
         int count = noofdigits(num);
@@ -16,3 +17,4 @@ import java.util.Scanner;
         return  NOD;
     }
 }
+
