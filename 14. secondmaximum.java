@@ -2,6 +2,7 @@ import java.util.Scanner;
  class secondmaximum {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+      System.out.print("Welcome To Find Second Maximum");
         System.out.print("Enter Array Size: ");
         int n = input.nextInt();
         int[] numarr = new int[n];
@@ -34,3 +35,4 @@ import java.util.Scanner;
         return second;
     }
 }
+
