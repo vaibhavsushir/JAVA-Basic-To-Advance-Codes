@@ -1,5 +1,6 @@
 class TripletTargetSum {
     public static void main(String[] args) {
+         System.out.println(" Welcome To Triplet Target Sum");
         int[] numarr = {1,2,3,4,5,6,7,8,9,10};
         int target = 14;
         int TT =tripletsum(numarr,target);
@@ -20,3 +21,4 @@ class TripletTargetSum {
 return total;
     }
 }
+
