@@ -1,6 +1,7 @@
 import java.util.Scanner;
  class FindTotalTargetSum {
     public static void main(String[] args) {
+      System.out.println("Find Total Target Sum");
         Scanner input = new Scanner(System.in);
         int[] numarr = {1,2,3,4,5,6,7,8};
         int target = 7;
@@ -19,3 +20,4 @@ import java.util.Scanner;
         return total;
     }
 }
+
