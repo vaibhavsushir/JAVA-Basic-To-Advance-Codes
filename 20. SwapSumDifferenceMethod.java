@@ -1,6 +1,6 @@
 class SwapSumDifferenceMethod {
     public static void main(String[] args) {
-        System.out.println("Swap dSum Difference Method");
+        System.out.println("Swap Sum Difference Method");
         System.out.println("Before Swap");
         int a = 9;
         int b = 3;
@@ -15,4 +15,5 @@ class SwapSumDifferenceMethod {
         System.out.println("After Swap: a = "+a+" And b = "+b);
     }
 }
+
 
