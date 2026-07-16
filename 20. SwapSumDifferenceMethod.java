@@ -8,6 +8,7 @@ class SwapSumDifferenceMethod {
         swap(a,b);
 
     }
+    
     static void swap(int a, int b){
         a = a + b;
         b = a - b;
