@@ -1,6 +1,7 @@
 import java.util.Scanner;
  class NumericalRectangularPatterns {
     public static void main(String[] args) {
+     System.out.print("Welcome To Numeric Pattern Print");
         Scanner input = new Scanner(System.in);
         System.out.print("Enter R: ");
         int r = input.nextInt();
