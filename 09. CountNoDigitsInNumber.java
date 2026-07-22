@@ -8,6 +8,7 @@ import java.util.Scanner;
         int count = noofdigits(num);
         System.out.println("Your Number Of Digits Is: "+count);
     }
+  
     public static int noofdigits(int num){
         int NOD = 0;
         while(num > 0){
