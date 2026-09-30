@@ -1,7 +1,7 @@
  import java.util.Scanner;
  class occorences{ 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+     Scanner input = new Scanner(System.in);
      System.out.println("Occurence A Number In Array");
         int[] numarr = {1,2,3,3,4,5,6,3};
 
