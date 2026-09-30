@@ -4,7 +4,6 @@
      Scanner input = new Scanner(System.in);
      System.out.println("Occurence A Number In Array");
         int[] numarr = {1,2,3,3,4,5,6,3};
-
            System.out.print("Enter Element You Want To Check Occ: ");
             int num = input.nextInt();
             int occ = occ(numarr,num);
