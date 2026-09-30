@@ -8,7 +8,7 @@
             int num = input.nextInt();
             int occ = occ(numarr,num);
             System.out.println("Your Number Found "+occ+" Times");
-        }
+    }
     public static int occ(int[] numarr,int num){
         int occ = 0;
         for(int i = 0;i < numarr.length;i++){
